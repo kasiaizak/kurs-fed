@@ -46,6 +46,11 @@ header h2 + h3 {
 }
 
 /*selektor rodzeństwa*/
-section  {
-    
+section h2 ~ h3 {
+    color: darkgoldenrod;
+}
+
+/*selektor wykluczający*/
+ul li:not(.last-item) {
+    color: dodgerblue;
 }
