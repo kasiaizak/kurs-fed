@@ -1,0 +1,17 @@
+#green {
+    width: 400px;
+    height: 350px;
+    background-color: green;
+    color: #fff;
+    position: relative;
+    top: 150px;
+    left: 180px;
+}
+.position-absolute {
+    position: absolute;
+    background-color: red;
+    width: 150px;
+    height: 60px;
+    top: 20px;
+    left: 20px;
+}

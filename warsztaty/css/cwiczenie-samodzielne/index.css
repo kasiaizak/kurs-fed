@@ -1,0 +1,24 @@
+.zielony {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: green;
+}
+
+.niebieski {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.czerwony {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
