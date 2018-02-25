@@ -8,3 +8,8 @@ p {
     color: blue;
     font-size: 22px;
 }
+
+.link, div, span, #title {
+    background-color: yellow;
+    color: green;
+}
