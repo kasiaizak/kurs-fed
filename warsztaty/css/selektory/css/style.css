@@ -34,3 +34,18 @@ p {
     color: blueviolet;
     font-size: 20px;
 }
+
+#lista3 li:nth-child(3n+4) {
+    color: blueviolet;
+    font-size: 20px;
+}
+
+/*selektor bliskiego rodzeństwa*/
+header h2 + h3 {
+    color: red;
+}
+
+/*selektor rodzeństwa*/
+section  {
+    
+}
