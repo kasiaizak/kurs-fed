@@ -23,6 +23,7 @@ body {
     border-width: thin;
     border-color: black;
     border-radius: 50%;
+    position: absolute;
 }
 
 .czerwony {
