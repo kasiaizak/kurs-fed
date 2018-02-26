@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <form action="https://formspree.io/kasik83@gmail.com" method="POST">
+
+        <p>
+            <label for="imie" placeholder="Imię">Imię:</label>
+            <input type="text" name="imie">
+        </p>
+
+        <p>
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" name="nazwisko">
+        </p>
+
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email">
+        </p>
+
+        <p>
+            <label for="telefon">Telefon:</label>
+            <input type="tel" name="telefon">
+        </p>
+
+        <p>
+            <label for="miasto">Wybierz miasto:</label>
+            <select name="miasto">
+            <option value="vslue1">Kraków</option>
+            <option value="vslue2">Warszawa</option>
+            <option value="vslue3">Gdańsk</option>
+        </select>
+        </p>
+
+        <p><label for="plec">Podaj swoją płeć:</label>
+            <input type="radio" name="plec" value="mezczyna">Mężczyzna
+            <input type="radio" name="plec" value="kobieta">Kobieta</p>
+
+        <p>
+            <label for="do-zgoda">Zgoda na przetwarzanie danych osobowych:</label>
+            <input type="checkbox" name="do-zgoda" value="tak">Zgadzam się
+        </p>
+
+        <p>
+            <label for="wiadomosc">Wiadomość:</label><br>
+            <textarea name="wiadomosc" cols="30" rows="10" maxlenght="500"></textarea>
+        </p>
+
+        <p><input type="submit" value="Wyślij"></p>
+
+    </form>
+</body>
+
+</html>
