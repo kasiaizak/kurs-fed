@@ -10,7 +10,7 @@
     <form action="https://formspree.io/kasik83@gmail.com" method="POST">
 
         <p>
-            <label for="imie" placeholder="imie">Imię:</label>
+            <label for="imie" >Imię:</label>
             <input type="text" name="imie" id="imie">
         </p>
 
@@ -31,25 +31,26 @@
 
         <p>
             <label for="miasto">Wybierz miasto:</label>
-            <select name="miasto">
-            <option value="vslue1">Kraków</option>
-            <option value="vslue2">Warszawa</option>
-            <option value="vslue3">Gdańsk</option>
-        </select>
+            <select name="miasto" id="miasto">
+                <option value="vslue1">Kraków</option>
+                <option value="vslue2">Warszawa</option>
+                <option value="vslue3">Gdańsk</option>
+            </select>
         </p>
 
-        <p><label for="plec">Podaj swoją płeć:</label>
-            <input type="radio" name="plec" value="mezczyna">Mężczyzna
-            <input type="radio" name="plec" value="kobieta">Kobieta</p>
+        <p>
+            <label for="plec">Podaj swoją płeć:</label>
+            <input type="radio" name="plec" value="mezczyna" id="plec">Mężczyzna
+            <input type="radio" name="plec" value="kobieta" id="plec">Kobieta</p>
 
         <p>
-            <label for="zgoda" >Zgoda na przetwarzanie danych osobowych:</label>
+            <label for="zgoda">Zgoda na przetwarzanie danych osobowych:</label>
             <input type="checkbox" name="zgoda" value="tak" id="zgoda">Zgadzam się
         </p>
 
         <p>
             <label for="wiadomosc">Wiadomość:</label><br>
-            <textarea name="wiadomosc" cols="30" rows="10" maxlength="500"></textarea>
+            <textarea name="wiadomosc" cols="30" rows="10" maxlength="500" id="wiadomosc"></textarea>
         </p>
 
         <p><input type="submit" value="Wyślij"></p>
