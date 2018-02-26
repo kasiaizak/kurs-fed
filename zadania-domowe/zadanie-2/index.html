@@ -1,10 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
+
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Formularz</title>
 </head>
+
 <body>
-    <p>Zadanie 2</p>
+    <form action="https://formspree.io/kasik83@gmail.com" method="POST">
+
+        <p>
+            <label for="imie">Imię:</label>
+            <input type="text" name="imie" id="imie">
+        </p>
+
+        <p>
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" name="nazwisko" id="nazwisko">
+        </p>
+
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </p>
+
+        <p>
+            <label for="telefon">Telefon:</label>
+            <input type="tel" name="telefon" id="telefon">
+        </p>
+
+        <p>
+            <label for="miasto">Wybierz miasto:</label>
+            <select name="miasto" id="miasto">
+                <option value="vslue1">Kraków</option>
+                <option value="vslue2">Warszawa</option>
+                <option value="vslue3">Gdańsk</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="plec">Podaj swoją płeć:</label>
+            <input type="radio" name="plec" value="mezczyna" id="plec">Mężczyzna
+            <input type="radio" name="plec" value="kobieta">Kobieta
+        </p>
+        <!-- w3 poinformowało mnie, że id może być przypiasane tylko w jedym polu, czy w takim wypadku powinnam wybrać które pole mam powiązać, a drugie zostawić puste? -->
+
+        <p>
+            <label for="zgoda">Zgoda na przetwarzanie danych osobowych:</label>
+            <input type="checkbox" name="zgoda" value="tak" id="zgoda">Zgadzam się
+        </p>
+
+        <p>
+            <label for="wiadomosc">Wiadomość:</label><br>
+            <textarea name="wiadomosc" cols="30" rows="10" maxlength="500" id="wiadomosc"></textarea>
+        </p>
+
+        <p><input type="submit" value="Wyślij"></p>
+
+    </form>
 </body>
+
 </html>
