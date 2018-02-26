@@ -19,6 +19,9 @@ body {
 .kolo {
     width: 50%;
     height: 50%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
     border-radius: 50%;
 }
 
