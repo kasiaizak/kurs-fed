@@ -1,8 +1,12 @@
-img#pieczarka1 {
+* {
+    box-sizing: border-box;
+}
+
+img#truskawka1 {
     float: left;
 }
 
-img#pieczarka2 {
+img#truskawka2 {
     float: right;
 }
 
