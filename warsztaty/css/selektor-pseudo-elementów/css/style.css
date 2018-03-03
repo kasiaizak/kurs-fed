@@ -1,0 +1,26 @@
+#p1::before {
+    content: "przed elementem ";
+    color: red;
+}
+
+#p2::after {
+    content: " po elemencie";
+    color: pink;
+}
+
+#p3 {
+    
+}
+
+#p3::first-letter {
+    color: green;
+    font-size: 30px;
+}
+
+#p4::first-line {
+    background-color: fuchsia;
+}
+
+::selection {
+    background-color: crimson;
+}
