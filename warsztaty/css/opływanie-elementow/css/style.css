@@ -1,0 +1,11 @@
+img#pieczarka1 {
+    float: left;
+}
+
+img#pieczarka2 {
+    float: right;
+}
+
+p:last-child {
+    clear: right;
+}
