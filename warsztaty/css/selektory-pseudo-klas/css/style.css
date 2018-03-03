@@ -1,0 +1,26 @@
+#p1:target {
+    color: crimson;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+/* nieparzyste */
+.clients-list div:nth-child(odd) {
+    color: orangered;
+}
+
+/* parzyste */
+.clients-list div:nth-child(even) {
+    color: green;
+}
+
+/* 4 element i co 5 */
+.clients-list div:nth-child(5n+4) {
+    color: hotpink;
+}
