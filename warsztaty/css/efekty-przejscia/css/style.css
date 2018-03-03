@@ -1,0 +1,38 @@
+.box {
+    width: 150px;
+    height: 150px;
+}
+
+#box1 {
+    background-color: crimson;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#box1:hover {
+    width: 300px;
+    background-color: darkorchid;
+}
+
+#box2 {
+    background-color: darkorchid;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#box2:hover {
+    height: 300px;
+    background-color: darkcyan;
+}
+
+#box3 {
+    background-color: darkcyan;
+    transition-property: all;
+    transition-duration: 2s;
+}
+
+#box3:hover {
+    width: 300px;
+    height: 300px;
+    background-color: crimson;
+}
