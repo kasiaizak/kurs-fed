@@ -1,0 +1,56 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+    padding: 10px;
+    width: 600px;
+}
+
+form input, select {
+    margin-bottom: 10px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="tel"], form select[name="miasto"], form textarea {
+    width: 300px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+    background-color: #2b4a64;
+    border: 1px solid #213b50;
+    color: #fff;
+}
+
+form input[type="checkbox"]+label, form input[type="radio"]+label {
+    display: inline;
+}
+
+form :focus {
+    background-color: #4e708c;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+form label[for="wiadomosc"] {
+    margin-top: 10px;
+}
+
+#przycisk {
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input[type="submit"] {
+    background-color: green;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: greenyellow;
+    color: black;
+}
