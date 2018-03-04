@@ -14,7 +14,7 @@ body {
 }
 
 section {
-    padding: 0 80px 90px;
+    padding: 0 80px 60px;
     width: 100%;
     background-color: #fff;
 }
@@ -87,7 +87,7 @@ section h2 span {
 }
 /* end header */
 
-/* sekcja o mnie */
+/* start sekcja o mnie */
 #o-mnie {
     background-color: #f9fcfe;
     box-shadow: 0px 3px #E5E5E5;
@@ -112,8 +112,22 @@ section h2 span {
     border: 14px #fff solid;
     border-radius: 15px;
 }
+/* end sekcja o mnie */
 
+/* start sekcja umiejetnosci */
+#umiejetnosci {
+    text-align: center;
+}
+
+#umiejetnosci figure {
+    display: inline-block;
+    margin: 20px;
+}
+/* start sekcja umiejetnosci */
+
+/* start sekcja kontakt */
 #kontakt {
     background-color: #213b50;
     color: #fff;
 }
+/* end sekcja kontakt */
