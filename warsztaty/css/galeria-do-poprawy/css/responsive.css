@@ -11,16 +11,16 @@
 }
 
 figure {
-    width: 33%;
+    width: 33.33333%;
 }
 
-@media (max-width:1200px) and (min-width: 481px) {
+@media (min-width: 769px) and (max-width:992px) {
     figure {
-        width: 48%;
+        width: 50%;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     figure {
         width: 100%;
     }
