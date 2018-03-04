@@ -12,6 +12,24 @@ body {
     font-weight: 300;
     background-color: #fff;
 }
+
+section {
+    padding: 0 80px 90px;
+    width: 100%;
+    background-color: #fff;
+}
+
+section h2 {
+    text-align: center;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+section h2 span {
+    color: #1ac056;
+}
 /* end general */
 
 /* start nav */
@@ -67,32 +85,32 @@ body {
     font-weight: 200;
     font-size: 35px;
 }
-
 /* end header */
 
-/* start naglowki sekcji */
-#o-mnie h3, #umiejetnosci h3, #portfolio h3, #kontakt h3 {
-    margin-bottom: 10px;
-}
-
-#o-mnie h3 span, #umiejetnosci h3 span, #portfolio h3 span, #kontakt h3 span {
-    color: #1ac056;
-}
-/* end naglowki sekcji */
-
-/* start kontenery general */
-section {
-    padding: 20px;
-}
-/* end kontenery general */
-
+/* sekcja o mnie */
 #o-mnie {
     background-color: #f9fcfe;
     box-shadow: 0px 3px #E5E5E5;
+    overflow: hidden;
 }
 
-#o-mnie, #umiejetnosci, #portfolio {
+#o-mnie figure {
+    width: 50%;
+    float: left;
     text-align: center;
+    padding: 10px;
+}
+
+#o-mnie div {
+    width: 50%;
+    float: left;
+}
+
+#o-mnie figure img {
+    max-height: 300px;
+    max-width: 100%;
+    border: 14px #fff solid;
+    border-radius: 15px;
 }
 
 #kontakt {
