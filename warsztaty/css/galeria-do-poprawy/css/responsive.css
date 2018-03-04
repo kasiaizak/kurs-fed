@@ -1,5 +1,5 @@
 #gallery {
-    width: 100%;
+    width: 85%;
 }
 
 #gallery div {
@@ -20,7 +20,17 @@ figure {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) {
+    figure {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    #gallery {
+        width: 100%;
+    }
+    
     figure {
         width: 100%;
     }
