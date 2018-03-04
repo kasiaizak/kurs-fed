@@ -2,6 +2,14 @@
     width: 100%;
 }
 
+#gallery div {
+    font-size: 0;
+}
+
+#gallery figure {
+    font-size: 14px;
+}
+
 figure {
     width: 33%;
 }
