@@ -1,7 +1,22 @@
 @media (min-width: 992px) and (max-width: 1170px) {
+header {
+    height: 70vh;
+}
 
+header div {
+    top: 20%;
+    transform: translateX(50%);
+}
 }
 
 @media (max-width: 991px) {
+header {
+    height: 50vh;
+}
 
+header div {
+    top: 110%;
+    color: #000;
+    text-align: center;
+}
 }

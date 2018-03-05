@@ -16,8 +16,7 @@ header {
 
 header div {
     text-transform: uppercase;
-    position: absolute;
+    position: relative;
     text-align: left;
     top: 50%;
-    transform: translateY(-50%);
 }
