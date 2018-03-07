@@ -8,6 +8,10 @@ header div {
     top: 20%;
     transform: translateX(50%);
 }
+    
+header div h1, header div h2 {
+    margin-left: 0;
+}    
 }
 
 @media (max-width: 991px) {
@@ -20,4 +24,8 @@ header div {
     color: #000;
     text-align: center;
 }
+    
+header div h1, header div h2 {
+    margin-left: 0;
+}    
 }

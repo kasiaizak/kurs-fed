@@ -22,3 +22,8 @@ header div {
     text-align: left;
     top: 50%;
 }
+
+header div h1, header div h2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
