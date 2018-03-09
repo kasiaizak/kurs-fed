@@ -6,11 +6,10 @@ header {
 
 header div {
     top: 20%;
-    transform: translateX(50%);
 }
     
 header div h1, header div h2 {
-    margin-left: 0;
+    margin-left: 50vw;
 }    
 }
 
