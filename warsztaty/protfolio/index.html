@@ -6,6 +6,7 @@
     <title>Portfolio</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/fontawesome-all.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet">
 
@@ -102,10 +103,10 @@
         </div>
     </section>
     <section id="kontakt">
-        <div>
-            <h2>Katarzyna <span>Izak</span></h2>
+        <h2>Katarzyna <span>Izak</span></h2>
+        <div class="kontakt-item">
             <p>adres linia 1<br> adres linia 2</p>
-            <p>telefon<br> e-mail
+            <p>telefon<br> e-mail <span><a href="mailto:kontakt@mail.pl">kontakt@mail.pl</a></span>
             </p>
             <div>
                 <figure><i class="fab fa-facebook-square"></i></figure>
@@ -114,8 +115,13 @@
                 <figure><i class="fab fa-linkedin"></i></figure>
             </div>
         </div>
-        <div>
-            tu bedzie formularz
+        <div class="kontakt-item">
+            <form action="https://formspree.io/katarzynaizak@noreply.com" method="POST">
+                <div><input type="text" name="imie" placeholder="Imię i nazwisko"></div>
+                <div><input type="email" name="email" placeholder="E-mail"></div>
+                <div><textarea name="wiadomosc" rows="5" maxlength="500" id="wiadomosc" placeholder="Treść wiadomości"></textarea></div>
+                <div><input type="submit" id="przycisk" value="Wyślij"></div>
+            </form>
         </div>
     </section>
     <footer>

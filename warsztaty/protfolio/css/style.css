@@ -1,4 +1,5 @@
 /* start general */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -27,16 +28,18 @@ section h2 {
     font-size: 30px;
 }
 
-section h2 span {
+section h2 span, #kontakt .kontakt-item p span a {
     color: #1ac056;
 }
 
 p {
     line-height: 25px;
 }
+
 /* end general */
 
 /* start nav */
+
 #main-nav {
     width: 100%;
     background-color: #f9fcfe;
@@ -59,9 +62,11 @@ p {
     color: #1ac056;
     text-decoration: none;
 }
+
 /* end nav */
 
 /* start header */
+
 #main-header {
     background-image: url(../img/header-background.jpg);
     background-size: cover;
@@ -89,9 +94,11 @@ p {
     font-weight: 200;
     font-size: 35px;
 }
+
 /* end header */
 
 /* start sekcja o mnie */
+
 #o-mnie {
     background-color: #f9fcfe;
     box-shadow: 0px 3px #E5E5E5;
@@ -116,9 +123,11 @@ p {
     border: 14px #fff solid;
     border-radius: 15px;
 }
+
 /* end sekcja o mnie */
 
 /* start sekcja umiejetnosci */
+
 #umiejetnosci {
     text-align: center;
 }
@@ -127,9 +136,11 @@ p {
     display: inline-block;
     margin: 20px;
 }
+
 /* start sekcja umiejetnosci */
 
 /* start sekcja portfolio */
+
 #portfolio .portfolio-items {
     font-size: 0;
     text-align: center;
@@ -167,7 +178,7 @@ p {
     transition: all 0.3s ease-in-out;
 }
 
-#portfolio .portfolio-item-mask:hover {    
+#portfolio .portfolio-item-mask:hover {
     opacity: 1;
 }
 
@@ -187,8 +198,10 @@ p {
     left: 0;
     padding: 5px;
     line-height: 12px;
-    top: 50%; /* 50% rodzica */
-    transform: translateY(-50%); /* 50% swoje */
+    top: 50%;
+    /* 50% rodzica */
+    transform: translateY(-50%);
+    /* 50% swoje */
 }
 
 #portfolio .mask-content-inner h3 {
@@ -204,12 +217,43 @@ p {
 #portfolio .mask-content-inner .fa-link:hover {
     color: #1ac056;
 }
+
 /* end sekcja portfolio */
 
 /* start sekcja kontakt */
+
 #kontakt {
     background-color: #213b50;
     color: #fff;
+    font-size: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#kontakt div {
+    width: 100%;
+    margin: 0;
+    font-size: initial;
+}
+
+#kontakt .kontakt-item {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#kontakt h2 {
+    margin-top: 0;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+#kontakt .kontakt-item p {
+    margin-bottom: 12px;
+}
+
+#kontakt .kontakt-item div {
+    margin-bottom: 20px;
 }
 
 #kontakt .fab {
@@ -220,12 +264,15 @@ p {
     display: inline-block;
     margin: 10px;
 }
+
 /* end sekcja kontakt */
 
 /* start stopka */
+
 footer {
     padding: 2px 80px 2px;
     background-color: #1A2F40;
     color: #fff;
 }
+
 /* end stopka */
