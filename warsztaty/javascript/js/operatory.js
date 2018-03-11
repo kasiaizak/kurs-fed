@@ -43,7 +43,7 @@ var liczba9 = 10;
 if (liczba8 <= liczba9) {
     console.log('Warunek spełniony');
 } else {
-    console.log('Warunek nie spełniony, czyli false');
+    console.log('Warunek niespełniony, czyli false');
 }
 
 
@@ -56,5 +56,5 @@ var czyWiosna = "tak";
 if (liczba10 < liczba11 && czyJestWiosna == "tak" ) {
     console.log('Warunek spełniony');
 } else {
-    console.log('Warunek nie spełniony');
+    console.log('Warunek niespełniony');
 }
