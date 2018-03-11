@@ -16,7 +16,7 @@ console.log(zmiennaLokalna);
 var zmienna = "Zmienna globalna";
 
 function pokazZmienna() {
-    var zmienna = "Zmienna lokalna";
+    var zmienna = "Zmienna lokalna"; // usuwając var zmieniamy zmienną globalną wewnątrz funkcji
     console.log(zmienna);
 }
 
