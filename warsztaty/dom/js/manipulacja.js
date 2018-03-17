@@ -9,7 +9,7 @@ mainHeader.innerHTML = '<span>Nowa zawartość h1 wstawiona w span</span>';
 
 // zmiana styli
 mainHeader.style.color = 'red';
-mainHeader.style.backgroundColor = 'yellow';
+mainHeader.style.backgroundColor = 'yellow'; //cammelCase
 
 // przypisanie klasy - ustawia na nowo atrybuty (istniejace klasy sa usuwane)
 mainHeader.className = 'headingtext';
