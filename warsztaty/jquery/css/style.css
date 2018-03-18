@@ -2,3 +2,6 @@
     font-size: 40px;
     color: deeppink;
 }
+h1 {
+    position: relative;
+}
