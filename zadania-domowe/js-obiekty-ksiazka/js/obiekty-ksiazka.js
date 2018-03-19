@@ -8,7 +8,7 @@ class Ksiazka {
     opiszKsiazke() {
         var czyPrzeczytana;
 
-        if (this.czyPrzeczytana === true) {
+        if (this.przeczytana === true) {
             czyPrzeczytana = 'została';
         }
         else {
