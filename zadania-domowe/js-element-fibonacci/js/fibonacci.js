@@ -1,4 +1,4 @@
-var liczba = 0;
+var liczba;
 
 function fibonacci(liczba) {
     if (liczba === 0) {
@@ -8,25 +8,16 @@ function fibonacci(liczba) {
         return 1;
     }
     else {
-        var F1 = 1;
-        var F2 = 1;
-        var Fn = 0;
+        var f1 = 1;
+        var f2 = 1;
+        var fn = 0;
         for (var i = 0; i < liczba - 2; i++) {
-            Fn = F1 + F2;
-            F1 = F2;
-            F2 = Fn;
+            fn = f1 + f2;
+            f1 = f2;
+            f2 = fn;
         }
-        return Fn;
+        return fn;
     }
 }
 
-fibonacci(liczba);
-
-/*Napisz funkcję, która zwraca wartość n-tego elementu ciągu fibbonaciego. Wynik działań i funkcji wyświetl w konsoli.
-
-Jako parametr funkcja przyjmuje n - czyli n-ty element ciągu fibbonaciego.
-
-Zadanie domowe robimy z wykorzystaniem serwisu https://repl.it
-
-Podpowiedź przed wysłaniem zadania do sprawdzenia:
-- znajdź w internecie opis merytoryczny ciągu fibbonaciego*/
+fibonacci(10);
