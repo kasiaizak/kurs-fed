@@ -1,5 +1,4 @@
-function sumaIloczyn() {
-    var tablica = [1, 2, 3, 4, 5, 6];
+function sumaIloczyn(tablica) {
     var dlugoscTablicy = tablica.length;
     var suma = 0;
     var iloczyn = 1;
@@ -10,4 +9,4 @@ function sumaIloczyn() {
     console.log('Suma podanych liczb wynosi: ' + suma + '\nIloczyn podanych liczb wynosi: ' + iloczyn);
 }
 
-sumaIloczyn();
+sumaIloczyn([1, 2, 3, 4, 5, 6]);
