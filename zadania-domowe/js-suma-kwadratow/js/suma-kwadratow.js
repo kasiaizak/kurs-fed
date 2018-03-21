@@ -1,5 +1,4 @@
-function sumaKwadratow() {
-    var tablica = [1, 2, 3, 4, 5];
+function sumaKwadratow(tablica) {
     var dlugoscTablicy = tablica.length;
     var suma = 0;
     for (var i = 0; i < dlugoscTablicy; i++) {
@@ -8,4 +7,4 @@ function sumaKwadratow() {
     console.log('Suma kwadratów podanych liczb wynosi: ' + suma);
 }
 
-sumaKwadratow()
+sumaKwadratow([1, 2, 3, 4, 5]);
