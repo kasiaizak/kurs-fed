@@ -4,7 +4,7 @@ $('div').find('p').css({
     color: 'blue',
 });
 
-// Metoda each - jako parametr przyjmuje funkcję zwrotną, któa zostanie wykonana na każdym znalezionym elemencie
+// Metoda each - jako parametr przyjmuje funkcję zwrotną, która zostanie wykonana na każdym znalezionym elemencie
 $('p').each(function (index, element) {
     console.log(index, element);
     $(this).addClass('newa_class').css({
