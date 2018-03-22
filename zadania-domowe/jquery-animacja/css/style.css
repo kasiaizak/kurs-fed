@@ -1,0 +1,13 @@
+.kwadrat {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+h2 {
+    visibility: hidden;
+    z-index: 5;
+    font-size: 1.1em;
+    margin: 0;
+    color: white;
+}
