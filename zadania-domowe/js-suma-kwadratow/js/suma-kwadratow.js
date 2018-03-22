@@ -4,7 +4,8 @@ function sumaKwadratow(tablica) {
     for (var i = 0; i < dlugoscTablicy; i++) {
         suma += Math.pow( tablica[i], 2);
     }
-    console.log('Suma kwadratów podanych liczb wynosi: ' + suma);
+    console.log(suma);
+    return suma;
 }
 
 sumaKwadratow([1, 2, 3, 4, 5]);
