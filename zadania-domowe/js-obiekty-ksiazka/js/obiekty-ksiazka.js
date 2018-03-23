@@ -10,24 +10,33 @@ class Ksiazka {
 
         if (this.przeczytana === true) {
             czyPrzeczytana = 'została';
-        }
-        else {
+        } else {
             czyPrzeczytana = 'nie została';
         }
-        return console.log('Książka ma tytuł "' + this.tytul + '", autorem jest ' + this.autor + ' i ' + czyPrzeczytana + ' przeczytana.');
+        return 'Książka ma tytuł "' + this.tytul + '", autorem jest ' + this.autor + ' i ' + czyPrzeczytana + ' przeczytana.';
     }
 }
 
-var ksiazka1 = new Ksiazka('Teoria Portali', 'Martin Lechowicz', true);
-ksiazka1.opiszKsiazke();
+var pozycja1 = new Ksiazka('Teoria Portali', 'Martin Lechowicz', true);
+//pozycja1.opiszKsiazke();
 
-var ksiazka2 = new Ksiazka('Świat lodu i ognia', 'George R.R. Martin', false);
-ksiazka2.opiszKsiazke();
+var pozycja2 = new Ksiazka('Świat lodu i ognia', 'George R.R. Martin', false);
+//pozycja2.opiszKsiazke();
 
-var ksiazka3 = new Ksiazka('Raspberry Pi. Przewodnik użytkownika', 'Eben Upton oraz Gareth Halfacree', false);
-ksiazka3.opiszKsiazke();
-var biblioteczka = [ksiazka1, ksiazka2, ksiazka3];
+var pozycja3 = new Ksiazka('Raspberry Pi. Przewodnik użytkownika', 'Eben Upton oraz Gareth Halfacree', false);
+//pozycja3.opiszKsiazke();
 
-//function iloscPrzeczytanych(biblioteczka) {
-//    var czyPrzeczytana
-//}
+var biblioteczka = [pozycja1, pozycja2, pozycja3];
+
+function iloscPrzeczytanych() {
+    var status = 0;
+    var dlugoscTablicy = biblioteczka.length;
+    for (n = 0; n < dlugoscTablicy; n++) {
+        console.log(biblioteczka[n].opiszKsiazke());
+        if (biblioteczka[n].przeczytana === true) {
+            status++;
+        }
+    }
+    console.log('Przeczytanych: ' + status);
+}
+iloscPrzeczytanych(biblioteczka);
