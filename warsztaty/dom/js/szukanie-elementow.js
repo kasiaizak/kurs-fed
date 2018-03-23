@@ -20,7 +20,7 @@ var parSecond = document.querySelector('#parSecond');
 //console.log(parSecond);
 
 var mojeLinki = document.querySelectorAll('.link');
-//console.log(mojeLinki[1]);
+console.log(mojeLinki[1]);
 /*for (var i = 0; i < mojeLinki.length; i++) {
     console.log('To mój link nr ' + (i +1) );
     console.log(mojeLinki[1]) ;
@@ -29,6 +29,6 @@ var mojeLinki = document.querySelectorAll('.link');
 
 
 // pętla forEach działa na kolekcji pobranej za pomocą metody document.querySelectorAll()
-mojeLinki.forEach(function (element, index) {
+/*mojeLinki.forEach(function (element, index) {
     console.log(element);
-})
+})*/
