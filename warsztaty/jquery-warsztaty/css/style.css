@@ -41,7 +41,7 @@ img {
 
 .slider-arrows button {
     position: absolute;
-    top: 50%;
+    top: 300px;
     transform: translateY(-50%);
 }
 
