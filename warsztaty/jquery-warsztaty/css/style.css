@@ -9,24 +9,24 @@ html, body {
     height: 600px;
 }
 
-.slide-show {
+#slider .slide-show {
     position: absolute;
     height: 100%;
 }
 
-.single-slide {
+#slider .slide-show .single-slide {
     position: absolute;
     /*width: 100vw;*/
     top: 0;
     bottom: 0;
 }
 
-img {
+#slider .slide-show .single-slide img {
     height: 100%;
     width: 100%;
 }
 
-.slide-caption {
+#slider .slide-show .single-slide .slide-caption {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -39,20 +39,17 @@ img {
     font-size: 4em;
 }
 
-.slider-arrows button {
+#slider .slider-arrows button {
     position: absolute;
-    top: 300px;
+    top: 50%;
     transform: translateY(-50%);
+    z-index: 6;
 }
 
-.prev-slide {
-    position: absolute;
+#slider .slider-arrows .prev-slide {
     left: 0;
-    z-index: 6;
 }
 
-.next-slide {
-    position: absolute;
+#slider .slider-arrows .next-slide {
     right: 0;
-    z-index: 6;
 }
