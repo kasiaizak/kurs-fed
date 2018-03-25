@@ -11,24 +11,3 @@ przycisk.addEventListener('click', function (event) {
         })
 
 });
-
-function ajax(method, url, callback) {
-    var httpRequest = new XMLHttpRequest();
-
-    httpRequest.open(method, url);
-
-    httpRequest.onreadystatechange = function () {
-        if (httpRequest.readyState == 4) {
-            if (httpRequest.status == 200) {
-                var returnData = JSON.parse(httpRequest.responseText);
-                //debugger;
-
-                callback(returnData);
-
-                httpRequest = null;
-            }
-        }
-    }
-
-    httpRequest.send();
-}
