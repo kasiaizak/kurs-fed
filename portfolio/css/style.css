@@ -40,7 +40,7 @@ p {
 
 /* start nav */
 
-#main-nav input{
+#main-nav input, #main-nav label {
     display: none;
 }
 
