@@ -19,7 +19,7 @@ function pobierzDane(dane){
     paragrafUrl.appendChild(textUrl);
     
     var przerywnik = document.createElement('p');
-    var cialoPrzerywnika = document.createTextNode('---------------------');
+    var cialoPrzerywnika = document.createTextNode('---------------------------------');
     przerywnik.appendChild(cialoPrzerywnika);
     
     document.body.appendChild(paragrafId);
