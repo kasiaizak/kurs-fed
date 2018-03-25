@@ -44,6 +44,24 @@
 }
 
 @media (max-width: 642px) {
+    #main-nav label{
+        display: block;
+        text-align: right;
+    }
+    
+    #main-nav ul {
+        display: none;
+    }
+    
+    #main-nav input:checked + ul {
+        display: block;
+    }
+    
+    #main-nav ul li {
+        display: block;
+        padding: 5px;
+    }
+    
     section h2 {
         font-size: 25px;
     }
