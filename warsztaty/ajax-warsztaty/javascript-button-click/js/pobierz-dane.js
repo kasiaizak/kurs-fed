@@ -1,11 +1,9 @@
-var przycisk = document.getElementById('przycisk');
+function pobierzDane(e) {
+    e.preventDefault();
+    ajax("GET", "http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl", wstawDaneDoHtmla)
+}
 
-przycisk.addEventListener('click',function(event) {
-    event.preventDefault();
-    ajax("GET", "http://echo.jsontest.com/userId/108/userName/Akademia108/userURL/akademia108.pl", pobierzDane)
-});
-
-function pobierzDane(dane){
+function wstawDaneDoHtmla(dane){
     var paragrafId = document.createElement('p');
     var textId = document.createTextNode('userId: ' + dane.userId);
     paragrafId.appendChild(textId);
