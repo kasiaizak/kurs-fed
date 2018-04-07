@@ -3,11 +3,9 @@ var liczba;
 function fibonacci(liczba) {
     if (liczba === 0) {
         return 0;
-    }
-    else if (liczba === 1 || liczba === 2) {
+    } else if (liczba === 1 || liczba === 2) {
         return 1;
-    }
-    else {
+    } else {
         var f1 = 1;
         var f2 = 1;
         var fn = 0;
@@ -20,4 +18,4 @@ function fibonacci(liczba) {
     }
 }
 
-fibonacci(10);
+console.log(fibonacci(6));
