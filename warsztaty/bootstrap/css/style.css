@@ -31,3 +31,8 @@
 .item:nth-of-type(6) {
     background-color: darkblue;
 }
+
+p {
+    border-bottom: 1px solid #000;
+    padding: 30px 0;
+}
