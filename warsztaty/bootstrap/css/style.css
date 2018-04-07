@@ -1,0 +1,33 @@
+#c1, #c2 {
+    height: 100px;
+    background-color: deeppink;
+}
+
+#c2 {
+    background-color: dodgerblue;
+}
+
+.item {
+    height: 300px;
+    background-color: blueviolet;
+}
+
+.item:nth-of-type(2) {
+    background-color: palegreen;
+}
+
+.item:nth-of-type(3) {
+    background-color: darkgray;
+}
+
+.item:nth-of-type(4) {
+    background-color: crimson;
+}
+
+.item:nth-of-type(5) {
+    background-color: orangered;
+}
+
+.item:nth-of-type(6) {
+    background-color: darkblue;
+}
