@@ -4,7 +4,7 @@
 <head>
     <title>Bootstrap project</title>
     <meta charset="utf-8">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:400,700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -19,19 +19,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto w-100 justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
+                    <a class="nav-link text-uppercase" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link text-uppercase" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link text-uppercase" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#team">Team</a>
+                    <a class="nav-link text-uppercase" href="#team">Team</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link text-uppercase" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -41,85 +41,172 @@
         <div class="header-content text-center">
             <h2>Num libero tempore</h2>
             <h1 class="text-uppercase">Lorem Ipsum Dolor</h1>
-            <button class="btn btn-info text-uppercase">View more</button>
+            <button class="btn btn-info text-uppercase" data-scrollto="#services">View more</button>
         </div>
 
     </header>
 
     <section>
-        <article id="services">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-center">Services</div>
-                    <div class="col-12 text-center">Lorem ipsum dolor sit amet.</div>
+        <div class="container-fluid text-center" id="services">
+            <div class="header-title text-uppercase">
+                <h3>Services</h3>
+            </div>
+            <div class="header-caption">Lorem ipsum dolor sit amet.</div>
+            <div class="row">
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-suitcase fa-5x"></i>
+                    <div class="service-item">
+                        <h4>Web Developmnet</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero ratione accusantium facere hic fuga, dolore!</p>
+                    </div>
                 </div>
-                <div class="row">
-                    <div class="col-4 text-center">
-                        <i class="fas fa-suitcase fa-5x"></i>
-                        <p class="row-title">Web Developmnet</p>
-                        <p class="row-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero ratione accusantium facere hic fuga, dolore!</p>
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-cloud-download-alt fa-5x"></i>
+                    <div class="service-item">
+                        <h4>E-Commerce</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eius ipsam, ipsa ex minus tempora a.</p>
                     </div>
-                    <div class="col-4 text-center">
-                        <i class="fas fa-cloud-download-alt fa-5x"></i>
-                        <p class="row-title">E-Commerce</p>
-                        <p class="row-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eius ipsam, ipsa ex minus tempora a.</p>
-                    </div>
-                    <div class="col-4 text-center">
-                        <i class="fas fa-comment fa-5x"></i>
-                        <p class="row-title">Web Design</p>
-                        <p class="row-caption">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maiores numquam reiciendis, illo, sequi aut commodi!</p>
+                </div>
+                <div class="col-sm-4 text-center">
+                    <i class="fas fa-comment fa-5x"></i>
+                    <div class="service-item">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maiores numquam reiciendis, illo, sequi aut commodi!</p>
                     </div>
                 </div>
             </div>
-        </article>
+        </div>
 
-        <article id="portfolio">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-center">Portfolio</div>
-                    <div class="col-12 text-center">Lorem ipsum dolor sit amet.</div>
-                </div>
-                <div class="row">
-                    <div class="col-4">
-                        <figure>
-                            <img src="img/portfolio/chestnut_on_bracket.jpg" alt="Earum Rerum Hic">
-                            <figcaption>
-                                <span class="fig-title">Earum Rerum Hic</span><br>
-                                <span class="fig-caption">Earum Rerum Hic</span>
-                            </figcaption>
-                        </figure>
+        <div class="container-fluid text-center" id="portfolio">
+            <div class="header-title text-uppercase">
+                <h3>Portfolio</h3>
+            </div>
+            <div class="header-caption">Lorem ipsum dolor sit amet.</div>
+            <div class="row portfolio-items">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <div class="portfolio-item" id="portfolio-item-1">
+                            <div class="portfolio-item-mask">
+                                <div class="portfolio-item-mask-content">
+                                    <i class="fas fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    
-                    
+                    <div class="portfolio-caption">
+                        <h4>opis zdjęcia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <div class="portfolio-item" id="portfolio-item-2">
+                            <div class="portfolio-item-mask">
+                                <div class="portfolio-item-mask-content">
+                                    <i class="fas fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>opis zdjęcia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <div class="portfolio-item" id="portfolio-item-3">
+                            <div class="portfolio-item-mask">
+                                <div class="portfolio-item-mask-content">
+                                    <i class="fas fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>opis zdjęcia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <div class="portfolio-item" id="portfolio-item-4">
+                            <div class="portfolio-item-mask">
+                                <div class="portfolio-item-mask-content">
+                                    <i class="fas fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>opis zdjęcia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <div class="portfolio-item" id="portfolio-item-5">
+                            <div class="portfolio-item-mask">
+                                <div class="portfolio-item-mask-content">
+                                    <i class="fas fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>opis zdjęcia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="portfolio-box">
+                        <div class="portfolio-item" id="portfolio-item-6">
+                            <div class="portfolio-item-mask">
+                                <div class="portfolio-item-mask-content">
+                                    <i class="fas fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-caption">
+                        <h4>opis zdjęcia</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div>
                 </div>
             </div>
-        </article>
+        </div>
 
-        <article id="team">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12 text-center">Meet our team</div>
-                    <div class="col-12 text-center">Lorem ipsum dolor sit.</div>
-                </div>
-                <div class="row">
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
-                    <div class="col-4"></div>
-                </div>
+        <div class="container-fluid text-center" id="team">
+            <div class="header-title text-uppercase">
+                <h3>Meet our team</h3>
             </div>
-        </article>
+            <div class="header-caption">Lorem ipsum dolor sit.</div>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
 
-        <article id="contact">
-            Contact us
-        </article>
+        <div class="container-fluid text-center" id="contact">
+            <div class="header-title text-uppercase">
+                <h3>Contact us</h3>
+            </div>
+            <div class="header-caption text-center">Lorem ipsum dolor sit.</div>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
     </section>
 
     <footer>
         Stopka
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </body>
