@@ -46,10 +46,12 @@ p {
 
 #main-nav {
     width: 100%;
-    background-color: #f9fcfe;
+    /*background-color: #f9fcfe;*/
+    background-color: rgba(255,255,255,0.9);
     position: fixed;
     top: 0;
     z-index: 2;
+    font-weight: bold;
 }
 
 #main-nav ul {
@@ -80,11 +82,17 @@ p {
     background-size: cover;
     background-position: top center;
     color: #fff;
+    height: 70vh;
+    position: relative;
 }
 
 #main-header .header-content {
-    padding: 25vh;
-    text-align: center;
+    /*padding: 25vh;*/
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center!important;
 }
 
 #main-header .header-content h1 {
