@@ -156,6 +156,8 @@ p {
     top: 50%; 
     transform: translateY(-50%);
     margin: 2px;
+    width: 100%;
+    padding: 2px;
 }
 
 #portfolio .mask-content-inner h3 {
