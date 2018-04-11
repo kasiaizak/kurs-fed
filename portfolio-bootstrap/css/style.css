@@ -38,40 +38,14 @@ p {
 /* end general */
 
 /* start nav */
-
-#main-nav input, #main-nav label {
-    display: none;
-}
-
 #main-nav {
-    width: 100%;
-    background-color: #f9fcfe;
     background-color: rgba(255,255,255,0.9);
-    position: fixed;
-    top: 0;
-    z-index: 2;
-    font-weight: bold;
-}
-
-#main-nav ul {
-    margin: 0;
-    float: right;
-}
-
-#main-nav ul li {
-    display: inline-block;
-    padding: 20px 40px;
-}
-
-#main-nav label {
-    padding: 20px;
+    font-weight: bold;*/
 }
 
 #main-nav ul li a, #main-nav label {
     color: #1ac056;
-    text-decoration: none;
 }
-
 /* end nav */
 
 /* start header */
