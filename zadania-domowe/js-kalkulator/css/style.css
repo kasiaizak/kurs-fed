@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+#kalkulator {
+    background-color: orange;
+    padding: 10px 40px 30px 20px;
+    width: 360px;
+}
+
+#wynik, #del, #procenty, #dodawanie, #odejmowanie, #mnozenie, #dzielenie, #dziesiatki, #oblicz, #cyfra0, #cyfra1, #cyfra2, #cyfra3, #cyfra4, #cyfra5, #cyfra6, #cyfra7, #cyfra8, #cyfra9 {
+    display: inline-block;
+    padding: 15px;
+    margin: 5px;
+    height: 45px;
+    text-align: center;
+}
+
+#del, #procenty, #dodawanie, #odejmowanie, #mnozenie, #dzielenie, #dziesiatki, #oblicz, #cyfra0, #cyfra1, #cyfra2, #cyfra3, #cyfra4, #cyfra5, #cyfra6, #cyfra7, #cyfra8, #cyfra9 {
+    border-radius: 5px;
+    box-shadow: 0 5px grey;
+}
+
+#del {
+    background-color: deepskyblue;
+}
+
+#oblicz {
+    background-color: green;
+}
+
+#wynik, #procenty, #dodawanie, #odejmowanie, #mnozenie, #dzielenie {
+    background-color: dimgrey;
+}
+
+#dziesiatki, #cyfra0, #cyfra1, #cyfra2, #cyfra3, #cyfra4, #cyfra5, #cyfra6, #cyfra7, #cyfra8, #cyfra9 {
+    background-color: black;
+}
+
+#wynik {
+    width: 300px;
+    text-align: right;
+}
+
+#del, #cyfra0 {
+    width: 130px;
+}
+#procenty, #dodawanie, #odejmowanie, #mnozenie, #dzielenie, #dziesiatki, #oblicz, #cyfra1, #cyfra2, #cyfra3, #cyfra4, #cyfra5, #cyfra6, #cyfra7, #cyfra8, #cyfra9 {
+    width: 45px;
+}
