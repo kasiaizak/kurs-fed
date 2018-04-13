@@ -1,34 +1,43 @@
-#kwadrat {
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#kontener {
     background-color: #000;
     color: #fff;
-    width: 150px;
-    height: 150px;
-    font-size: 60px;
+    width: 100vw;
+    height: 100vh;
+    font-size: 150px;
     position: relative;
 }
 
 .animacja {
-    width: 150px;
+    width: 100vw;
     text-align: center;
-    line-height: 150px;
+    top: 50%;
+    transform: translateY(-50%);
     position: absolute;
 }
 
 #odliczaniefinal {
-    font-size: 50px;
+    font-size: 140px;
     line-height: inherit;
-    padding-top: 15px;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #odliczanie1, #odliczanie2, #odliczanie3, #odliczanie4, #odliczanie5, #odliczanie6, #odliczanie7, #odliczanie8, #odliczanie9, #odliczanie10, #odliczaniefinal {
     visibility: hidden;
+    text-align: center;
 }
 
 @keyframes znikanie {
     0% {
         visibility: visible;
     }
-    
     100% {
         visibility: hidden;
     }
@@ -39,7 +48,6 @@
         visibility: visible;
     }
 }
-
 
 #odliczanie10 {
     animation-name: znikanie;
@@ -116,4 +124,8 @@
     animation-iteration-count: infinite;
     animation-delay: 10s;
     animation-timing-function: ease-in-out;
+}
+
+#odliczaniefinal span {
+    color: red;
 }
