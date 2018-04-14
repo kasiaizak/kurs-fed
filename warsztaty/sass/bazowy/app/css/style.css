@@ -1,0 +1,26 @@
+body {
+  background-color: crimson; }
+  body a {
+    color: white; }
+
+nav {
+  background-color: darkviolet; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    nav ul li {
+      display: inline-block; }
+      nav ul li a {
+        color: white; }
+
+div#container {
+  background-color: darkviolet;
+  margin: 20px;
+  border: 1ps dotted red;
+  border-radius: 10px; }
+  div#container h2 {
+    width: 80px;
+    left: 0;
+    right: 0;
+    margin: auto; }
