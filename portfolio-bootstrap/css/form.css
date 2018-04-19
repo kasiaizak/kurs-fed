@@ -24,10 +24,10 @@ form input, form textarea {
 ::-moz-placeholder {
   color: lightgray;
 }
-:-ms-input-placeholder {
+::-ms-input-placeholder {
   color: lightgray;
 }
-:-moz-placeholder { 
+::-moz-placeholder { 
   color: lightgray;
 }
 
