@@ -16,13 +16,14 @@ body {
 
 section {
     padding: 0 80px 60px;
+    margin: 5px 0 5px 0; 
     width: 100%;
     background-color: #fff;
 }
 
 section h2 {
-    margin-top: 0.83em;
-    margin-bottom: 0.83em;
+    padding-top: 0.83em;
+    padding-bottom: 0.83em;
     font-weight: 300;
     font-size: 30px;
 }
@@ -40,7 +41,7 @@ p {
 /* start nav */
 #main-nav {
     background-color: rgba(255,255,255,0.9);
-    font-weight: bold;*/
+    font-weight: bold;
 }
 
 #main-nav ul li a, #main-nav label {
@@ -60,7 +61,7 @@ p {
 }
 
 #main-header .header-content {
-    padding: 25vh;
+    padding: 25vh 5vx 25vh 5vx;
     position: absolute;
     top: 50%;
     width: 100%;
@@ -88,7 +89,7 @@ p {
 
 /* start sekcja o mnie */
 
-*#o-mnie {
+#o-mnie {
     background-color: #f9fcfe;
     box-shadow: 0px 3px #E5E5E5;
 }
@@ -98,7 +99,7 @@ p {
     max-width: 100%;
     border: 14px #fff solid;
     border-radius: 15px;
-}*/
+}
 
 /* end sekcja o mnie */
 
@@ -179,13 +180,13 @@ p {
 /* end sekcja portfolio */
 
 /* start sekcja kontakt */
-
 #kontakt {
     background-color: #213b50;
     color: #fff;
     font-size: 0;
     padding-top: 20px;
     padding-bottom: 30px;
+    margin-bottom: 0; 
 }
 
 #kontakt div {
