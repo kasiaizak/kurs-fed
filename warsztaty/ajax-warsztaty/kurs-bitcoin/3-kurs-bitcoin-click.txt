@@ -1,0 +1,30 @@
+﻿Wykorzystując wiedzę na temat AJAXa oraz jQuery napisz aplikację, która wyświetla zmiany kursu waluty Bitcoin w stosunku do PLN. Aktualny kurs w formie obiektu JSON jest dostępny na serwerze (API) pod adresem https://blockchain.info/pl/ticker
+
+
+
+Aplikacja ma działać w następujący sposób:
+
+
+Po kliknięciu w przycisk "Pobierz kurs Bitcoin" pobieramy aktualny kurs BITCOIN/PLN.
+
+
+Porównujemy go z ostatnio pobranym kursem i zależnie od tego czy kurs wzrósł, nie zmienił się, czy zmalał ustawiamy strzałeczki przy kursie.
+
+
+Strzałeczki robimy za pomocą biblioteki FontAwesome. Jeśli kurs wzrósł (zielona strzałka w górę), zmalał (czerwona strzałka w dół), czy pozostał bez zmian (niebieska kreska).
+
+
+
+Przykładowy wygląd i elementy aplikacji dostępne są w załączonych grafikach.
+
+
+
+Zadanie domowe zrób za pomocą GitHub Pages i podeślij link.
+
+
+
+Podpowiedź przed wysłaniem zadania do sprawdzenia:
+
+- pracując z mechanizmem AJAX używaj wbudowanych funkcji jQuery
+
+- do pobrania danych metody jQuery $.getJSON() - opis działania metody http://api.jquery.com/jquery.getjson/
