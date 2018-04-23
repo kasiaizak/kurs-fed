@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  height: 100vh; }
+
+section#tresc {
+  background-image: url(../img/background.png);
+  background-position: top center;
+  background-repeat: no-repeat; }
+  section#tresc div#naglowek div,
+  section#tresc div#kontakt div {
+    display: inline-block; }
+  section#tresc div#naglowek div#formularz,
+  section#tresc div#kontakt div#formularz {
+    margin-left: 50vw; }
+
+footer {
+  background-color: #292929;
+  margin-top: auto; }

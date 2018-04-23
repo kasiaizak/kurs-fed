@@ -1,0 +1,23 @@
+@import 'zmienne';
+@import 'mixins';
+@import 'global';
+
+section#tresc {
+    background-image: url(../img/background.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    div#naglowek,
+    div#kontakt {
+        div {
+            display: inline-block;
+        }
+        div#formularz {
+            margin-left: 50vw;
+        }
+    }
+}
+
+footer {
+    background-color: $szary;
+    margin-top: auto;
+}
