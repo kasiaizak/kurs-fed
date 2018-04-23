@@ -1,0 +1,9 @@
+.error{
+    color:red;
+    background-color:#ffbbbb;
+}
+
+.success{
+    color:green;
+    background-color:lightgreen;
+}
