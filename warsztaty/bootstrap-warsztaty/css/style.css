@@ -104,8 +104,34 @@ body {
 /* end header */
 
 /* start services */
+.service-circle {
+    display: inline-table;
+    height: 120px;
+    width: 120px;
+    color: white;
+    background-color: #0ed8d6;
+    border-style: solid;
+    border-width: thin;
+    border-color: #0ed8d6;
+    border-radius: 50%;
+    position: relative;
+    transition: all 1s ease-in-out;
+}
 
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    width: 100%; 
+    transform: translateY(-50%);
+}
 
+.service-circle:hover {
+   transform: rotate(360deg);
+}
+
+#services h4 {
+    margin-top: 10px;
+}
 
 /* end services */
 
