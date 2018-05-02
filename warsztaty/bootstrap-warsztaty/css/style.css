@@ -130,7 +130,7 @@ body,
     transition: all 1s ease-in-out;
 }
 
-.service-circle:hover {
+.service-item:hover {
     transform: rotate(360deg);
 }
 /* end services */
