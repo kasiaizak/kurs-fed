@@ -1,41 +1,44 @@
 /* start general */
 
-body {
+body,
+#team .description p {
     font-family: 'Roboto Slab', serif;
     color: #777;
 }
 
 .header-title h3,
 #main-nav .navbar-nav,
-#services .service-item h4,
-#portfolio .portfolio-caption h4,
-#main-header .header-content h1 {
+#main-header h1,
+.description h4 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
 .header-caption,
-#main-header .header-content h2,
-#portfolio .portfolio-caption p {
+#main-header h2,
+.description p {
     font-family: 'Droid Serif', sans-serif;
 }
 
 .header-title,
-.service-item h4,
-#portfolio .portfolio-caption h4 {
+.description h4 {
     color: #333;
 }
 
 .nav-link,
 .header-caption,
-#services .service-item p,
-#portfolio .portfolio-caption p {
+.description p {
     font-size: 0.8rem;
 }
 
-#services .service-item h4,
-#portfolio .portfolio-caption h4 {
+.description h4 {
     font-size: 1.3rem;
+}
+
+.circle {
+    border-style: solid;
+    border-width: thin;
+    border-radius: 50%;
 }
 
 /* odstępy */
@@ -50,10 +53,25 @@ body {
     padding-bottom: 60px;
 }
 
+#services h4,
+#team h4 {
+    margin-top: 10px;
+}
+
+.horizontal-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
 /* end general */
 
 /* start navbar */
-
 .nav-link {
     font-weight: 400;
 }
@@ -75,11 +93,9 @@ body {
 .navbar-light .navbar-nav .nav-link:hover {
     color: #0ed8d6;
 }
-
 /* end navbar */
 
 /* start header */
-
 #main-header {
     background-image: url(../img/header/grey.png), url(../img/header/pictures_on_the_wall.jpg);
     background-repeat: repeat no-repeat;
@@ -89,59 +105,38 @@ body {
     height: 100vh;
 }
 
-#main-header .header-content {
+#main-header {
     padding: 25vh;
 }
 
-#main-header .header-content h2 {
+#main-header h2 {
     font-size: 1.5rem;
 }
 
 .btn {
     margin-top: 1.5rem;
 }
-
 /* end header */
 
 /* start services */
-.service-circle {
-    display: inline-table;
+.service-item {
     height: 120px;
     width: 120px;
     color: white;
     background-color: #0ed8d6;
-    border-style: solid;
-    border-width: thin;
     border-color: #0ed8d6;
-    border-radius: 50%;
+    display: inline-table;
     position: relative;
     transition: all 1s ease-in-out;
 }
 
-.vertical-center {
-    position: absolute;
-    top: 50%;
-    width: 100%; 
-    transform: translateY(-50%);
-}
-
 .service-circle:hover {
-   transform: rotate(360deg);
+    transform: rotate(360deg);
 }
-
-#services h4 {
-    margin-top: 10px;
-}
-
 /* end services */
 
 /* start portfolio */
-
-#portfolio {
-    background-color: #f7f7f7;
-}
-
-#portfolio .portfolio-caption {
+#portfolio .description {
     background-color: #fff;
     margin-bottom: 30px;
     padding: 30px 30px 30px 30px;
@@ -154,15 +149,9 @@ body {
     width: 100%;
 }
 
-#portfolio .portfolio-box {
-    overflow: hidden;
-}
-
-#portfolio .portfolio-item {
-    background-size: cover;
-    background-position: center;
-    display: inline-block;
-    position: relative;
+#portfolio-background,
+#portfolio {
+    background-color: #f7f7f7;
 }
 
 #portfolio .portfolio-items #portfolio-item-1 {
@@ -224,14 +213,80 @@ body {
 #portfolio .portfolio-items #portfolio-item-6:hover {
     transform: scale(1.5);
 }
-
 /* end portfolio */
 
 /* start team */
+#team .team-box,
+#team .team-item {
+    height: 200px;
+    width: 200px;
+}
+
+#team .team-item {
+    border-color: white;
+}
+
+#team .team-items #team-item-1 {
+    background-image: url("../img/team/man-1.jpg");
+}
+
+#team .team-items #team-item-2 {
+    background-image: url("../img/team/man-2.jpg");
+}
+
+#team .team-items #team-item-3 {
+    background-image: url("../img/team/woman-1.jpg");
+}
+
+#team .description ul {
+    padding: 0;
+}
+
+#team .description ul li {
+    display: inline-block;
+}
+
+#team .description ul li i {
+    transform: translateY(+70%);
+}
+
+.social-item {
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: #333;
+    border-color: #333;
+}
+
+.social-item:hover {
+    color: white;
+    background-color: #0ed8d6;
+    border-color: #0ed8d6;
+}
+
+#team .caption {
+    padding-top: 20px;
+}
 /* end team */
 
+/* start portfolio & team */
+#portfolio .portfolio-box,
+#team .team-box {
+    overflow: hidden;
+}
+
+#portfolio .portfolio-item,
+#team .team-item {
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+}
+/* end portfolio & team */
+
 /* start contact */
+
 /* end contact */
 
 /* start footer */
+
 /* end footer */

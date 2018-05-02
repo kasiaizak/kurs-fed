@@ -5,7 +5,7 @@
     <title>Bootstrap project</title>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400i|Montserrat:400,700|Roboto+Slab&amp;subset=latin-ext" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -38,38 +38,43 @@
     </nav>
 
     <header id="main-header">
-        <div class="header-content text-center">
+        <div class="text-center">
             <h2>Num libero tempore</h2>
             <h1 class="text-uppercase">Lorem Ipsum Dolor</h1>
             <button class="btn btn-info text-uppercase" data-scrollto="#services">View more</button>
         </div>
-
     </header>
 
     <section>
-        <div class="container-fluid text-center" id="services">
+        <div class="container text-center" id="services">
             <div class="header-title text-uppercase">
                 <h3>Services</h3>
             </div>
             <div class="header-caption">Lorem ipsum dolor sit amet.</div>
             <div class="row">
-                <div class="col-sm-4 text-center">
-                    <div class="service-circle text-center"><div class="vertical-center"><i class="fas fa-suitcase fa-4x"></i></div></div>
-                    <div class="service-item">
+                <div class="col-md-4 col-sm-6 horizontal-center">
+                    <div class="service-item circle text-center">
+                        <div class="vertical-center"><i class="fas fa-suitcase fa-4x"></i></div>
+                    </div>
+                    <div class="description">
                         <h4>Web Developmnet</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa libero ratione accusantium facere hic fuga, dolore!</p>
                     </div>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <div class="service-circle text-center"><div class="vertical-center"><i class="fas fa-cloud-download-alt fa-4x"></i></div></div>
-                    <div class="service-item">
+                <div class="col-md-4 col-sm-6 horizontal-center">
+                    <div class="service-item circle text-center">
+                        <div class="vertical-center"><i class="fas fa-cloud-download-alt fa-4x"></i></div>
+                    </div>
+                    <div class="description">
                         <h4>E-Commerce</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim eius ipsam, ipsa ex minus tempora a.</p>
                     </div>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <div class="service-circle text-center"><div class="vertical-center"><i class="fas fa-comment fa-4x"></i></div></div>
-                    <div class="service-item">
+                <div class="col-md-4 col-sm-6 horizontal-center">
+                    <div class="service-item circle text-center">
+                        <div class="vertical-center"><i class="fas fa-comment fa-4x"></i></div>
+                    </div>
+                    <div class="description">
                         <h4>Web Design</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate maiores numquam reiciendis, illo, sequi aut commodi!</p>
                     </div>
@@ -77,115 +82,157 @@
             </div>
         </div>
 
-        <div class="container-fluid text-center" id="portfolio">
-            <div class="header-title text-uppercase">
-                <h3>Portfolio</h3>
-            </div>
-            <div class="header-caption">Lorem ipsum dolor sit amet.</div>
-            <div class="row portfolio-items">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
-                        <div class="portfolio-item" id="portfolio-item-1">
-                            <div class="portfolio-item-mask">
-                                <div class="portfolio-item-mask-content">
-                                    <i class="fas fa-plus fa-2x"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="portfolio-caption">
-                        <h4>opis zdjęcia</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
+        <div id="portfolio-background">
+            <div class="container text-center" id="portfolio">
+                <div class="header-title text-uppercase">
+                    <h3>Portfolio</h3>
                 </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
-                        <div class="portfolio-item" id="portfolio-item-2">
-                            <div class="portfolio-item-mask">
-                                <div class="portfolio-item-mask-content">
-                                    <i class="fas fa-plus fa-2x"></i>
+                <div class="header-caption">Lorem ipsum dolor sit amet.</div>
+                <div class="row portfolio-items">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <div class="portfolio-item" id="portfolio-item-1">
+                                <div class="portfolio-item-mask">
+                                    <div class="portfolio-item-mask-content">
+                                        <i class="fas fa-plus fa-2x"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="description">
+                            <h4>opis zdjęcia</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
-                    <div class="portfolio-caption">
-                        <h4>opis zdjęcia</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
-                        <div class="portfolio-item" id="portfolio-item-3">
-                            <div class="portfolio-item-mask">
-                                <div class="portfolio-item-mask-content">
-                                    <i class="fas fa-plus fa-2x"></i>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <div class="portfolio-item" id="portfolio-item-2">
+                                <div class="portfolio-item-mask">
+                                    <div class="portfolio-item-mask-content">
+                                        <i class="fas fa-plus fa-2x"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="description">
+                            <h4>opis zdjęcia</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
-                    <div class="portfolio-caption">
-                        <h4>opis zdjęcia</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
-                        <div class="portfolio-item" id="portfolio-item-4">
-                            <div class="portfolio-item-mask">
-                                <div class="portfolio-item-mask-content">
-                                    <i class="fas fa-plus fa-2x"></i>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <div class="portfolio-item" id="portfolio-item-3">
+                                <div class="portfolio-item-mask">
+                                    <div class="portfolio-item-mask-content">
+                                        <i class="fas fa-plus fa-2x"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="description">
+                            <h4>opis zdjęcia</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
-                    <div class="portfolio-caption">
-                        <h4>opis zdjęcia</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
-                        <div class="portfolio-item" id="portfolio-item-5">
-                            <div class="portfolio-item-mask">
-                                <div class="portfolio-item-mask-content">
-                                    <i class="fas fa-plus fa-2x"></i>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <div class="portfolio-item" id="portfolio-item-4">
+                                <div class="portfolio-item-mask">
+                                    <div class="portfolio-item-mask-content">
+                                        <i class="fas fa-plus fa-2x"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="description">
+                            <h4>opis zdjęcia</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
-                    <div class="portfolio-caption">
-                        <h4>opis zdjęcia</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="portfolio-box">
-                        <div class="portfolio-item" id="portfolio-item-6">
-                            <div class="portfolio-item-mask">
-                                <div class="portfolio-item-mask-content">
-                                    <i class="fas fa-plus fa-2x"></i>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <div class="portfolio-item" id="portfolio-item-5">
+                                <div class="portfolio-item-mask">
+                                    <div class="portfolio-item-mask-content">
+                                        <i class="fas fa-plus fa-2x"></i>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="description">
+                            <h4>opis zdjęcia</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
-                    <div class="portfolio-caption">
-                        <h4>opis zdjęcia</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="portfolio-box">
+                            <div class="portfolio-item" id="portfolio-item-6">
+                                <div class="portfolio-item-mask">
+                                    <div class="portfolio-item-mask-content">
+                                        <i class="fas fa-plus fa-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <h4>opis zdjęcia</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid text-center" id="team">
+        <div class="container text-center" id="team">
             <div class="header-title text-uppercase">
                 <h3>Meet our team</h3>
             </div>
             <div class="header-caption">Lorem ipsum dolor sit.</div>
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4"></div>
+            <div class="row team-items">
+                <div class="col-md-4 col-sm-6 horizontal-center">
+                    <div class="team-box horizontal-center">
+                        <div class="team-item circle horizontal-center" id="team-item-1"></div>
+                    </div>
+                    <div class="description">
+                        <h4>Eric Stern</h4>
+                        <p>Account Manager</p>
+                        <ul class="horizontal-center">
+                            <li class="social-item circle"><i class="fab fa-facebook-f fa-1x"></i></li>
+                            <li class="social-item circle"><i class="fab fa-twitter fa-1x"></i></li>
+                            <li class="social-item circle"><i class="fab fa-linkedin-in fa-1x"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 horizontal-center">
+                    <div class="team-box horizontal-center">
+                        <div class="team-item circle horizontal-center" id="team-item-2"></div>
+                    </div>
+                    <div class="description">
+                        <h4>Martin Muller</h4>
+                        <p>Developer</p>
+                        <ul class="horizontal-center">
+                            <li class="social-item circle"><i class="fab fa-facebook-f fa-1x"></i></li>
+                            <li class="social-item circle"><i class="fab fa-twitter fa-1x"></i></li>
+                            <li class="social-item circle"><i class="fab fa-linkedin-in fa-1x"></i></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 horizontal-center">
+                    <div class="team-box horizontal-center">
+                        <div class="team-item circle horizontal-center" id="team-item-3"></div>
+                    </div>
+                    <div class="description">
+                        <h4>Anna Smith</h4>
+                        <p>Project Manager</p>
+                        <ul class="horizontal-center">
+                            <li class="social-item circle"><i class="fab fa-facebook-f fa-1x"></i></li>
+                            <li class="social-item circle"><i class="fab fa-twitter fa-1x"></i></li>
+                            <li class="social-item circle"><i class="fab fa-linkedin-in fa-1x"></i></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div class="caption text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis magnam a doloremque facere ex voluptatem obcaecati mollitia nobis, soluta veritatis repellendus modi neque distinctio facilis voluptates voluptate vel. Incidunt, reiciendis.</div>
         </div>
 
         <div class="container-fluid text-center" id="contact">
