@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+}
+
+#preloader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: #919396;
+}
+
+#preloader .preloader-inner {
+    height: 50px;
+    width: 180px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+
+#preloader .dot {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    animation-name: load; /* podłączenie animacji */
+    animation-duration: 1.2s; /* czas trwania animacji */
+    animation-iteration-count: infinite; /* zapętlenie animacji */
+    animation-timing-function: linear; /* sposób przejścia */
+    transform: scale(0);
+}
+
+#preloader .dot:nth-child(1) {
+    background-color: #6cbe45;
+}
+
+#preloader .dot:nth-child(2) {
+    background-color: #2dbaec;
+    animation-delay: 0.15s;
+}
+
+#preloader .dot:nth-child(3) {
+    background-color: #c14599;
+    animation-delay: 0.3s;
+}
+
+@keyframes load {
+    0% {
+        transform: scale(0);
+    }
+    
+    30% {
+        transform: scale(1);
+    }
+    
+    60% {
+        transform: scale(1);
+    }
+    
+    100% {
+        transform: scale(0);
+    }
+}
