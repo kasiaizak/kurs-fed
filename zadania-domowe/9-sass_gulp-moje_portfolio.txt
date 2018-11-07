@@ -1,0 +1,4 @@
+Przekoduj zadanie domowe z poprzednich zajêæ "Portfolio Bootstrap" z u¿yciem preprocesora SASS i narzêdziem automatyzacji GULP.
+
+UWAGA!!! - BARDZO WA¯NE
+U¿ywaj¹c GitHub Pages wgraj do repozytorium tylko folder app. W ¿adnym wypadku nie wgrywaj do repozytorium plików z folderu node_modules!!!

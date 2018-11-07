@@ -1,0 +1,38 @@
+Zadanie domowe z Terminala i GIT - wykonujemy je w terminalu (w wierszu poleceñ)! ;)
+
+1. Na Github utwórz nowe repozytorium o nazwie - gitjestgit
+2. Otwieramy terminal GIT (wiersz poleceñ) i przechodzimy na pulpit do folderu 'repositories'
+3. Klonujemy z Github stworzone repozytorium 'gitjestgit' do folderu 'repositories' - operacje wykonujemy w terminalu :)
+4. Wchodzimy w termialu do folderu zawieraj¹cego nasze sklonowane repozytorium 'gitjestgit'
+5. Tworzymy katalog 'pliki'
+6. Wchodzimy do folderiu 'pliki'
+7. Tworzymy plik1.html i plik2.html
+8. Wracamy do folderu powy¿ej
+9. Tworzymy plik index.html
+10. Otwieramy plik index.html w brackets i dodajemy paragraf
+11. Dodajemy wszystkie pliki do œledzenia w repozytorium GIT
+12. Robimy pierwszy commit z komentarzem "init" 
+13. Robimy push do Github
+14. Tworzymy nowego branch o nazwie 'version2'
+15. Prze³¹czamy siê na branch 'version2'
+16. Edytujemy plik index.html dodaj¹c drugi paragraf
+17. Dodajemy plik do œledzenia
+18. Robimy commit z komentarzem "drugi paragraf" 
+19. Prze³¹czamy siê na branch 'master'
+20. Edytujemy plik index.html dodaj¹c trzeci paragraf
+21. Dodajemy plik do œledzenia
+22. Robimy commit z komentarzem "trzeci paragraf" 
+23. Nastêpnie robimy MERGE obu branchy tj. master i version2
+24. Gdyby siê tak zdarzy³o ;) ¿e merge nie przejdzie automatycznie i jest konflikt, to usuwamy go rêcznie :)
+25. Dodajemy plik index.html do œledzenia
+26. I robimy commit z komentarzem "Merged master with version2" 
+27. Robimy push do repozytorium GitHub - zarówno ga³êzi 'master' jak i 'version2'
+28. Uruchamiamy program Github Desktop i przegl¹damy w³asne zmiany i u¿ycie branchy
+29. Podsy³amy adres waszego repozytorium 'gitjestgit' na Github w Task Manager Redmine - sprawdzimy jak wam posz³o :)
+
+Powodzenia!
+
+PodpowiedŸ:
+- treœæ plików HTML rób ju¿ od razu w pe³nej strukturze pliku HTML5
+- po zakoñczeniu zadania wyœlij link do gotowego repozytorium na GitHub
+- (przed wys³aniem) zwróæ uwagê na koñcu zadania czy wgra³eœ branch version2 do GitHub

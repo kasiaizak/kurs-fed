@@ -1,0 +1,5 @@
+Napisz funkcjê, która zwraca wartoœæ n-tego elementu ci¹gu fibbonaciego. Wynik dzia³añ i funkcji wyœwietl w konsoli.
+Jako parametr funkcja przyjmuje n - czyli n-ty element ci¹gu fibbonaciego.
+
+PodpowiedŸ przed wys³aniem zadania do sprawdzenia:
+- znajdŸ w internecie opis merytoryczny ci¹gu fibbonaciego

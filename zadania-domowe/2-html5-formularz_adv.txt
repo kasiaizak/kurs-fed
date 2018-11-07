@@ -1,0 +1,15 @@
+Stwórz w HTML5 formularz jak na za³¹czonym obrazku. Stylowanie dowolne :)
+
+U¿yj tylko i wy³¹cznie semantycznych znaczników HTML5, które spe³niaj¹ wymagania z poni¿szej specyfikacji:
+
+- uruchomiona opcja "autocomplete" 
+- podziel strukturê formularza na informacje o kliencie i ksi¹¿ki - analogicznie jak w za³¹czonym obrazku
+- pole "Name" (imie) powinno mieæ "autofocus", text pocz¹tkowy (tzw. placeholder) i byæ polem wymaganym. Nie zapomnij wybraæ odpowiedniego typu dla tego pola, a tak¿e wszystkich poni¿szych
+- pole "Telephone" (telefon) powinno mieæ text pocz¹tkowy (tzq. placeholder) i zawieraæ restrykcje wprowadzania tylko numeru telefonu w odpowiedniej formie - dok³adnie takiej (1-234-567-8910). Do tego pole powinno byæ polem wymaganym.
+- pole "Email address" (adres email) powinno mieæ text pocz¹tkowy (tzq. placeholder), pozwalaæ na mo¿liwoœæ wprowadzania wielu adresów. Do tego pole powinno byæ polem wymaganym.
+- pole "Books" (ksi¹¿ki) powinno byæ list¹ danych z predefiniowanymi piêcioma wartoœciami.
+- pole "Quantity" (iloœæ) powinno mieæ mo¿liwoœæ wprowadzenia minimalnej wartoœci 1, a maksymalnej 5.
+
+PodpowiedŸ przed wys³aniem zadania do sprawdzenia:
+- sprawdŸ, czy u¿y³eœ elementów HTML5
+- sprawdŸ poprawnoœæ sk³adni w walidatorze W3C https://validator.w3.org/

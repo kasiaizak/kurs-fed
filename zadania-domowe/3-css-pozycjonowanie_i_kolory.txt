@@ -1,0 +1,5 @@
+Odwo³uj¹c siê do informacji na temat pozycjonowania, jednostek wielkoœci i kolorów stwórz efekt analogiczny do przedstawionej grafiki stosuj¹c style CSS.
+
+PodpowiedŸ przed wys³aniem zadania do sprawdzenia:
+- do uzyskania efektu ko³a u¿yj w³aœciwoœci border i border-radius
+- staraj siê, aby powtarzaj¹ce siê w³aœciwoœci CSS zosta³y pogrupowane w klasach

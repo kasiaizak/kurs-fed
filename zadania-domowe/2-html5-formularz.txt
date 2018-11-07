@@ -1,0 +1,14 @@
+Stwórz formularz, który pozwoli na zapis uczestnika na szkolenie - pola:
+- imiê
+- nazwisko 
+- mail
+- telefon
+- wybór miasta (Kraków, Warszawa, Gdañsk) - select
+- p³eæ - radio
+- zgoda na dane osobowe - checkbox
+- wiadomoœæ - textarea
+
+PodpowiedŸ przed wys³aniem zadania do sprawdzenia:
+- sprawdŸ dopasowanie labelek do pól formularza
+- sprawdŸ, czy formularz wysy³a maile na Twój adres z wykorzystaniem serwisu https://formspree.io/
+- sprawdŸ poprawnoœæ sk³adni w walidatorze W3C https://validator.w3.org/

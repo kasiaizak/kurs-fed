@@ -1,0 +1,11 @@
+Pobierz do zmiennej jsonPracownicy poni¿szy obiekt
+
+{
+    pracownicy[
+        {firstName Krystian, lastName Dziopa}, 
+        {firstName Anna, lastName Szapiel},
+        {firstName Piotr, lastName ¯muda}
+    ]
+}
+
+Wyœwietl go w konsoli, a nastêpnie za pomoc¹ pêtli forEach przeiteruj po ka¿dym pracowniku, oraz wyœwietl w konsoli index elementu tablicy oraz imie i nazwisko pracownika.

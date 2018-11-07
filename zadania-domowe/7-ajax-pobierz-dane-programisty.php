@@ -1,0 +1,1 @@
+{"imie":"Piotr","nazwisko":"Szapiel","zawod":"Programista","firma":"Akademia 108"}
