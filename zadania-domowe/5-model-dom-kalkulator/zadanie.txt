@@ -1,0 +1,8 @@
+Stwórz kalkulator, który wykonuje podstawowe funkcje arytmetyczne, czyli:
+- Dodawanie
+- Odejmowanie
+- Mno¿enie
+- Dzielenie
+
+Kalkulator operuje na liczbach ca³kowitych jak i zmiennoprzecinkowych.
+Kalkulator NIE MUSI mieæ obs³ugi b³êdów np. dzielania przez 0.

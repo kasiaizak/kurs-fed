@@ -1,9 +1,0 @@
-Zaimplementuj funkcjê, która sortuje tablicê przez b¹belkowanie.
-
-Funkcja przyjmuje parametr - tj. tablicê do posortowania, a zwraca posortowan¹ talicê.
-
-Wywo³aj funkcjê z tablic¹ [12, 67, 34, 23.01, 24, 2, 56, 8, 0x10, 23.02, 78, 34, 1e2, 45, 67, 98, 1]. Wynik jej dzia³ania wyœwietl w konsoli.
-
-PodpowiedŸ przed wys³aniem zadania do sprawdzenia:
-- znajdŸ w internecie opis dzia³ania sortowania b¹belkowego
-- zastosuj pêtlê w pêtli :)

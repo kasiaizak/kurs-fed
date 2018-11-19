@@ -1,0 +1,1 @@
+Napisz funkcjê ze zmiennymi lokalnymi, która liczy sumê kwadratów elementów tablicy [0,1,2,3,4,5]. Funkcja przyjmuje jeden parametr - w/w tablicê z liczbami. Funkcja zwraca sumê kwadratow. Wyœwietl wynik dzia³ania funkcji w konsoli.

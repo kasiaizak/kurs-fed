@@ -1,0 +1,1 @@
+Napisz funkcjê ze zmiennymi lokalnymi, która policzy sumê i iloczyn elementów tablicy [1, 2, 3, 4, 5, 6]. Funkcja przyjmuje jeden parametr - ww. tablicê z liczbami. Funkcja nie zwraca nic. Funkcja wyœwietla wyniki w konsoli.

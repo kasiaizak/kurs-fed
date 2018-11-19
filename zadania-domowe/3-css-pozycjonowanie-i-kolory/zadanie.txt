@@ -1,0 +1,1 @@
+Odwo³uj¹c siê do informacji na temat pozycjonowania, jednostek wielkoœci i kolorów stwórz efekt analogiczny do przedstawionej grafiki stosuj¹c style CSS.

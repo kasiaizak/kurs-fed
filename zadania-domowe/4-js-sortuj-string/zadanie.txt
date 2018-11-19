@@ -1,0 +1,2 @@
+Napisz funkcjê, która pobiera jako parametr stringa (czyli napis) i zwraca ten napis z posortowanymi literami.
+Nastêpnie wywo³aj funkcjê i posortuj stringa  z dowolnym napisem, a wynik dzia³ania funkcji wyœwietl w konsoli.

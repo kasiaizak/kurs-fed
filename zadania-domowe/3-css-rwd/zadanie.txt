@@ -1,0 +1,13 @@
+Twoim zadaniem bêdzie wykonanie nag³ówka do strony internetowej dla trzech rozdzielczoœci:
+- Wiêcej ni¿ 1170px
+- Pomiêdzy 992px - 1170px
+- Mniej ni¿ 992px
+
+W za³¹czeniu znajduj¹ siê grafiki z podgl¹dem na których nale¿y siê wzorowaæ.
+
+Wytyczne dla rozdzielczoœci:
+- powy¿ej 1170px - tekst nag³ówkowy wyrównany horyzontalnie do lewej i wertykalnie do œrodka - obrazek na pe³n¹ wysokoœæ okna przegl¹darki
+- pomiêdzy 992px a 1170px - tekst nag³ówkowy wyrównany do prawego górnego rogu - obrazek na 70 procent wysokoœæ okna przegl¹darki
+- poni¿ej 992px - tekst pod obrazkiem - obrazek na po³owê wysokoœæ okna przegl¹darki
+
+Jako czcionki bazowej u¿yj fontu Verdana.

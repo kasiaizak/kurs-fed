@@ -1,0 +1,2 @@
+Napisz funkcjê, która pobiera jako parametr stringa (czyli napis) i zwraca ten sam napis tylko napisany wspak.
+Nastêpnie wywo³aj t¹ funkcjê i odwróæ wspak stringa z dowolnym napisem, a wynik dzia³ania funkcji wyœwietl w konsoli.

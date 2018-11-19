@@ -1,0 +1,30 @@
+@media (min-width: 992px) and (max-width: 1170px) {
+header {
+    height: 70vh;
+    background-image: url(../img/man-2.jpg);
+}
+
+header div {
+    top: 20%;
+}
+    
+header div h1, header div h2 {
+    margin-left: 50vw;
+}    
+}
+
+@media (max-width: 991px) {
+header {
+    height: 50vh;
+}
+
+header div {
+    top: 110%;
+    color: #000;
+    text-align: center;
+}
+    
+header div h1, header div h2 {
+    margin-left: 0;
+}    
+}

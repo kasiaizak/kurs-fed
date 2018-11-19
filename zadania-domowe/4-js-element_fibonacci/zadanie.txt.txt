@@ -1,0 +1,2 @@
+Napisz funkcję, która zwraca wartość n-tego elementu ciągu fibbonaciego. Wynik działań i funkcji wyświetl w konsoli.
+Jako parametr funkcja przyjmuje n - czyli n-ty element ciągu fibbonaciego.

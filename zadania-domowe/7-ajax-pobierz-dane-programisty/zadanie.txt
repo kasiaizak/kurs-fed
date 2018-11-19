@@ -1,0 +1,6 @@
+Stwórz stronê zawieraj¹c¹ przycisk pt. "Pobierz dane"
+
+Po klikniêciu przycisku pobierz dane o programiœcie w formacie JSON z internetu za pomoc¹ Javascript lub jQuery:
+https://katarzynaizak.github.io/kurs-fed/zadania-domowe/7-ajax-pobierz-dane-programisty.php
+
+Pobrane dane wyœwietl poni¿ej przycisku w nowym, stworzonym DIVie o id="dane-programisty".
