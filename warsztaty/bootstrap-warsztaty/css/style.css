@@ -1,5 +1,4 @@
 /* start general */
-
 body,
 #team .description p {
     font-family: 'Roboto Slab', serif;
@@ -9,8 +8,17 @@ body,
 .header-title h3,
 #main-nav .navbar-nav,
 #main-header h1,
-.description h4 {
+.description h4,
+#contact .contact-mask .contact-content form,
+footer {
     font-family: 'Montserrat', sans-serif;
+}
+
+.header-title h3,
+#main-nav .navbar-nav,
+#main-header h1,
+.description h4,
+#contact .contact-mask .contact-content form {
     font-weight: 700;
 }
 
@@ -44,7 +52,8 @@ body,
 /* odstępy */
 #services,
 #portfolio,
-#team {
+#team,
+#contact .contact-mask {
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -58,7 +67,8 @@ body,
     margin-top: 10px;
 }
 
-.horizontal-center {
+.horizontal-center,
+#contact input[type="submit"] {
     margin-right: auto;
     margin-left: auto;
 }
@@ -238,21 +248,25 @@ body,
     background-image: url("../img/team/woman-1.jpg");
 }
 
-#team .description ul {
+#team .description ul,
+footer ul {
     padding: 0;
+    margin: 0;
 }
 
-#team .description ul li {
+#team .description ul li,
+footer ul li {
     display: inline-block;
 }
 
-#team .description ul li i {
-    transform: translateY(+70%);
+#team .description ul li i,
+footer ul li i {
+    transform: translateY(+30%);
 }
 
 .social-item {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     color: white;
     background-color: #333;
     border-color: #333;
@@ -284,9 +298,85 @@ body,
 /* end portfolio & team */
 
 /* start contact */
+#contact {
+    background-image: url("../img/contact/world-map.jpg");
+    background-size: cover;
+}
 
+#contact .contact-mask {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#contact .contact-mask .contact-content,
+#contact .contact-mask .contact-content h3 {
+    color: #fff;
+}
+
+#contact .contact-mask .contact-content input[type="text"],
+#contact .contact-mask .contact-content input[type="email"],
+#contact .contact-mask .contact-content input[type="tel"],
+#contact .contact-mask .contact-content textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 10px 0 10px 0;
+}
+
+#contact .contact-mask .contact-content input[type="text"],
+#contact .contact-mask .contact-content input[type="email"],
+#contact .contact-mask .contact-content input[type="tel"],
+#contact .contact-mask .contact-content textarea,
+#contact .contact-mask .contact-content input[type="submit"] {
+    border-radius: 5px 5px;
+    border: 0;
+    text-transform: uppercase;
+}
+
+#contact .contact-mask .contact-content input[type="text"],
+#contact .contact-mask .contact-content input[type="email"],
+#contact .contact-mask .contact-content input[type="tel"],
+#contact .contact-mask .contact-content textarea {
+    font-size: 0.7rem;
+}
+
+#contact .contact-mask .contact-content textarea {
+    height: 91.5%;;
+}
+
+#contact .contact-mask .contact-content input[type="submit"] {
+    margin-top: 10px;
+    padding: 20px 40px 20px 40px;
+    background-color: #0ed8d6;
+    color: #fff;
+    font-size: 0.8rem;
+}
 /* end contact */
 
 /* start footer */
+footer {
+    padding: 20px 0 20px 0;
+}
 
+footer .text{
+    font-size: 0.7rem;
+}
+
+footer a {
+    color: #777;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+footer a:hover {
+    color: #0ed8d6;
+}
+
+footer .col-sm-4 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+footer ul li {
+    margin-right: 4px;
+    margin-left: 4px;
+}
 /* end footer */
